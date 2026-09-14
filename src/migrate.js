@@ -1,1 +1,1 @@
-import Database from 'better-sqlite3'; const db=new Database(process.env.DRONE_DB_PATH||'drone.db'); db.exec('create table if not exists schema_version(version integer not null)'); console.log('数据库已初始化');
+import Database from 'better-sqlite3'; const db=new Database(process.env.DRAW_DB_PATH||'draw.db'); db.exec('create table if not exists schema_version(version integer not null)'); console.log('数据库已初始化');
