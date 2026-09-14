@@ -1,0 +1,1 @@
+{"name":"drone-watch","type":"module","scripts":{"start":"node src/server.js","migrate":"node src/migrate.js","test":"node --test"},"dependencies":{"koa":"^2.15.0","better-sqlite3":"^11.0.0"}}
